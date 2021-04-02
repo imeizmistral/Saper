@@ -1,0 +1,84 @@
+body
+{
+background-color: rgb(59, 90, 55);
+color:white;
+margin-left: auto;
+margin-right: auto;
+width:1000px;
+height: 800px;
+font-family:'Courier New';
+}
+#kontener
+{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#naglowek
+{
+    text-align: center;
+    width:500px;
+    height: 60px;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#podnaglowek
+{
+    text-align: center;
+    width:500px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#plansza
+{
+    width: 510px;
+    height: 510px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.pole
+{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding:5px;
+    border: 3px solid black;
+    float:left;
+    cursor:pointer;
+    background-color: burlywood;
+    font-size: 14px;
+    color:burlywood;
+}
+.pole:hover
+{
+    color:burlywood;
+    border: 3px solid white;
+}
+#wynik
+{
+    font-size:50px;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.bomba
+{
+    color:white;
+    font-size: 0px;
+    height: 3px;
+}
+.bombak
+{
+    color:white;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+}
